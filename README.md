@@ -9,3 +9,5 @@ This program has the following dependencies:
 
 To compile the program:
 ```g++ main.cpp -lSDL2main -lSDL2 -lSDL2_image -lSDL2_ttf -lSDL2_mixer```
+
+Note: Windows is unsupported.
