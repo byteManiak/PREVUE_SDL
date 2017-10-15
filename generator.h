@@ -69,26 +69,16 @@ void PREVUE_Generator::Generate_Grid(SDL_Renderer* renderer)
     if(!f.is_open())
     {
         entries.emplace_back(new PREVUE_Section(current, section_cols[(++s_col)%4], offset_y));
-        entries[entries.size()-1]->add_string("Hello, Joe! I'm testing");
+        entries[entries.size()-1]->add_string("3:00PM");
         offset_y+=64;
         entries.emplace_back(new PREVUE_Section(current, section_cols[(++s_col)%4], offset_y));
-        entries[entries.size()-1]->add_string("the width of these sections.");
+        entries[entries.size()-1]->add_string("3:30PM");
         offset_y+=64;
         entries.emplace_back(new PREVUE_Section(current, section_cols[(++s_col)%4], offset_y));
-        entries[entries.size()-1]->add_string("As you can see, these squares");
+        entries[entries.size()-1]->add_string("4:00PM");
         offset_y+=64;
         entries.emplace_back(new PREVUE_Section(current, section_cols[(++s_col)%4], offset_y));
-        entries[entries.size()-1]->add_string("never touch the text.");
-        offset_y+=64;
-        entries.emplace_back(new PREVUE_Section(current, section_cols[(++s_col)%4], offset_y));
-        entries[entries.size()-1]->add_string("I'll make the real-time listings");
-        offset_y+=64;
-        entries.emplace_back(new PREVUE_Section(current, section_cols[(++s_col)%4], offset_y));
-        entries[entries.size()-1]->add_string("with another program I'm writing");
-        offset_y+=64;
-        entries.emplace_back(new PREVUE_Section(current, section_cols[(++s_col)%4], offset_y));
-        entries[entries.size()-1]->add_string("which is called txt_to_prv.");
-        offset_y+=64;
+        entries[entries.size()-1]->add_string("4:30PM");
     }
     else
     {
