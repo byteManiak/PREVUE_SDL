@@ -10,4 +10,7 @@ This program has the following dependencies:
 To compile the program:
 ```g++ main.cpp -lSDL2main -lSDL2 -lSDL2_image -lSDL2_ttf -lSDL2_mixer```
 
+A demo of the program can be seen here:
+[![PREVUE Guide](https://img.youtube.com/vi/Wv6JUrc2bZI/0.jpg)](https://www.youtube.com/watch?v=Wv6JUrc2bZI)
+
 Note: Windows is unsupported.
